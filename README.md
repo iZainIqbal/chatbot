@@ -1,16 +1,43 @@
-# chatbot
+# 🤖 Chatbot – AI-Powered Flutter App
 
-A new Flutter project.
+A simple and elegant **Flutter chatbot app** that integrates with **Dialogflow ES (free version)** to enable natural conversational experiences. Built using the **Bloc pattern** for structured and maintainable state management.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- Chat with an AI using **Dialogflow ES (Essentials)**
+- Clean architecture using **Bloc (flutter_bloc)**
+- Modern and responsive chat UI
+- Handles user input, bot response, and loading state
+- No Google Cloud billing required (uses Dialogflow ES free tier)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 Chat Screen Preview
+
+<img src="assets/chat_screen.png" alt="Chat screen" width="300"/>
+
+---
+
+## 🧰 Tools & Technologies Used
+
+| Tool / Package         | Description                                           |
+|------------------------|-------------------------------------------------------|
+| **Flutter**            | Cross-platform UI toolkit                            |
+| **Bloc (flutter_bloc)**| For state management                                 |
+| **Dialogflow ES**      | AI platform for natural conversation (free tier)     |
+| **http**               | For sending requests to Dialogflow API               |
+| **Dart**               | Language used to build Flutter apps                  |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Flutter SDK
+- A Dialogflow ES agent
+- A service account key (JSON) for authentication
+
+
