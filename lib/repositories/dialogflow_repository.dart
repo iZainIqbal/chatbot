@@ -5,7 +5,7 @@ import 'package:dialogflow_flutter/language.dart';
 class DialogflowRepository {
   Future<String> getBotResponse(String query) async {
     AuthGoogle authGoogle =
-        await AuthGoogle(fileJson: "assets/dialogflow_key.json").build();
+        await AuthGoogle(fileJson: "assets/dialogflow_keys.json").build();
     DialogFlow dialogFlow = DialogFlow(
       authGoogle: authGoogle,
       language: Language.english,

@@ -60,4 +60,5 @@ flutter:
   uses-material-design: true
 
   assets:
-    - dialogflow_key.json
+    - assets/dialogflow_keys.json
+    - assets/chat_screen.png
